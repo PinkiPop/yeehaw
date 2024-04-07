@@ -1,3 +1,13 @@
+.Header{
+    width: 100vh;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: gray;
+    font-family: fantasy;
+}
+
 .First{
     width: 100vh;
     height: 150px;
@@ -24,61 +34,15 @@
     align-items: center;
     background-color: gray;
 }
-
-.button{
-    width: 50px;
-    height: 50px;
-    display: flex;
-    background-color: aquamarine;
-    border-radius: 15px;
-}
-
 .button1{
+    cursor: pointer;
     width: 50px;
     height: 50px;
     display: flex;
     background-color: aquamarine;
     border-radius: 15px;
 }
-.button2{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    background-color: aquamarine;
-    border-radius: 15px;
-}
-.button3{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    background-color: aquamarine;
-    border-radius: 15px;
-}
-.button4{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    background-color: aquamarine;
-    border-radius: 15px;
-}
-.button5{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    background-color: aquamarine;
-    border-radius: 15px;
-}
-.button6{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    background-color: aquamarine;
-    border-radius: 50%;
-}
-.button7{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    background-color: aquamarine;
-    border-radius: 15px;
+.button1:hover{
+    background-color: #ddd;
+    opacity: 0.8;
 }
